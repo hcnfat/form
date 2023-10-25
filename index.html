@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <iframe width="560" height="315" 
+    src="https://www.youtube-nocookie.com/embed/Dp2SJN4UiE4" 
+    title="Mozart par l’orchestre national de France"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+    </iframe>
+
+    <form action="#" method="post">
+        <pre>
+            <input type="radio" name="radio" value="oui"> oui <input type="radio" name="radio" value="non"> non
+
+            <label for="chiffres">chiffres (de 0 à 10) </label>
+            <input type="text" id="chiffres" name="chiffres" required="0" maxlength="10" size="20">
+
+            <input type="button" name="valider" value="valider">
+        
+            <label for="age">age</label>
+            <input id="age" type="number" name="age" min="0">
+            
+            <input type="text" value="fatima">
+
+            <input type="image" name="name" src="../../Images/Pellicule/Logo_of_Twitter.svg (1).png" alt="image input"/>
+        
+            <textarea name="about" id="about" cols="30" rows="10" placeholder="laissez votre message..."></textarea>
+        
+        </pre>
+        
+        <label for="pet-select">choose a pet</label>
+        <select name="pets" id="pet-select" multiple>
+            <option value disabled selected>--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+
+        <fieldset>
+            <legend>les couleurs préférés</legend>
+            <input type="checkbox" id="rouge" name="couleur" value="rouge">
+            <label for="rouge">rouge</label>
+
+            <input type="checkbox" id="vert" name="couleur" value="vert">
+            <label for="vert">vert</label>
+
+            <input type="checkbox" id="bleu" name="couleur" value="bleu">
+            <label for="bleu">bleu</label>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
